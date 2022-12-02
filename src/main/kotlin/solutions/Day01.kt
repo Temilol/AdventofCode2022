@@ -3,13 +3,13 @@ package solutions
 import utils.readInput
 
 class Day01 {
-    private val caloriesList = readInput("day01/Day01")
+    private val caloriesInput = readInput("day01/Day01")
     private val caloriesSet = mutableSetOf<Int>()
-    private var totalCalories = 0
-    private var highestCalories = 0
 
     fun part01(): Int {
-        for (calories in caloriesList) {
+        var totalCalories = 0
+        var highestCalories = 0
+        for (calories in caloriesInput) {
             if (calories == "") {
                 if (totalCalories > highestCalories) {
                     highestCalories = totalCalories
@@ -24,4 +24,8 @@ class Day01 {
         return highestCalories
     }
 
+    fun part02(): Int {
+        val caloriesArray = caloriesSet.sortedDescending()
+        return caloriesArray[0] + caloriesArray[1] + caloriesArray[2]
+    }
 }
