@@ -3,8 +3,14 @@ package solutions
 import utils.readInput
 
 class Day01 {
-    private val caloriesInput = readInput("day01/Day01")
+    private var caloriesInput = readInput("day01/Day01")
     private val caloriesSet = mutableSetOf<Int>()
+
+    fun practice() {
+        caloriesInput = readInput("day01/Practice")
+        println("Part 1 is ${part01()}")
+        println("Part 2 is ${part02()}")
+    }
 
     fun part01(): Int {
         var totalCalories = 0
