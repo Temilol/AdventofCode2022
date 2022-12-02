@@ -1,9 +1,9 @@
 import solutions.Day01
 
 fun main(args: Array<String>) {
-    println("Hello World!")
-
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    println("=================================================")
+    println("Day 01!")
+    val day1 = Day01()
+    println("Part 1 problem is https://adventofcode.com/2022/day/1")
+    println("Part 1 solution is ${day1.part01()}")
 }
