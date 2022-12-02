@@ -24,17 +24,24 @@ class Day02 {
         putIfAbsent('P', 2)
         putIfAbsent('S', 3)
     }
+    private val handOutcomeMapping = HashMap<Char, Char>().apply {
+        putIfAbsent('X', 'L')
+        putIfAbsent('Y', 'D')
+        putIfAbsent('Z', 'W')
+    }
 
     fun practice() {
         input = readInput("day02/Practice")
         println("Part 1 is ${part01()}")
+        println("Part 2 is ${part02()}")
     }
 
     fun part01(): Int {
+        totalScore = 0
         for (session in input) {
             val player = session.split(delimiter)
-            val p0 = rpsMapping.getOrDefault(player[0],'o')
-            val p1 = rpsMapping.getOrDefault(player[1],'o')
+            val p0 = rpsMapping.getOrDefault(player[0], 'o')
+            val p1 = rpsMapping.getOrDefault(player[1], 'o')
             val outcome = playGame(p0, p1)
             val outcomeScore = outcomeScoreMapping.getOrDefault(outcome, 0)
             val playedScore = shapeScoreMapping.getOrDefault(p1, 0)
@@ -44,17 +51,73 @@ class Day02 {
         return totalScore
     }
 
+    fun part02(): Int {
+        totalScore = 0
+        for (session in input) {
+            val player = session.split(delimiter)
+            val p0 = rpsMapping.getOrDefault(player[0], 'o')
+            val p1 = player[1].single()
+            val hand = playHand(p0, p1)
+            val handOutcome = handOutcomeMapping.getOrDefault(p1, 0)
+            val playedScore = shapeScoreMapping.getOrDefault(hand, 0)
+            val outcomeScore = outcomeScoreMapping.getOrDefault(handOutcome, 0)
+            val roundScore = playedScore.plus(outcomeScore)
+            totalScore += roundScore
+        }
+        return totalScore
+    }
+
+    private fun playHand(p1: Char, p2: Char): Char {
+        return when (p2) {
+            'X' -> {//Lose
+                when (p1) {
+                    'R' -> {
+                        'S'
+                    }
+
+                    'S' -> {
+                        'P'
+                    }
+
+                    else -> {
+                        'R'
+                    }
+                }
+            }
+
+            'Z' -> {//Win
+                when (p1) {
+                    'R' -> {
+                        'P'
+                    }
+
+                    'S' -> {
+                        'R'
+                    }
+
+                    else -> {
+                        'S'
+                    }
+                }
+            }
+
+            else -> {//Draw
+                p1
+            }
+        }
+    }
+
     private fun playGame(p1: Char, p2: Char): Char {
         return if (p1 == p2) {
-            'D';
+            'D'
         } else if (p1 == 'S' && p2 == 'P') {
-            'L';
+            'L'
         } else if (p1 == 'P' && p2 == 'R') {
-            'L';
+            'L'
         } else if (p1 == 'R' && p2 == 'S') {
-            'L';
+            'L'
         } else {
-            'W';
+            'W'
         }
     }
 }

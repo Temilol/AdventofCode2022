@@ -20,4 +20,6 @@ fun main(args: Array<String>) {
     val day2 = Day02()
     println("Part 1 problem is https://adventofcode.com/2022/day/2")
     println("Part 1 solution is ${day2.part01()}")
+    println("Part 2 problem is https://adventofcode.com/2022/day/2#part2")
+    println("Part 2 solution is ${day2.part02()}")
 }
