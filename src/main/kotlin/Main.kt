@@ -33,5 +33,7 @@ fun main(args: Array<String>) {
     val day3 = Day03()
     println("Part 1 problem is https://adventofcode.com/2022/day/3")
     println("Part 1 solution is ${day3.part01()}")
+    println("Part 2 problem is https://adventofcode.com/2022/day/3#part2")
+    println("Part 2 solution is ${day3.part02()}")
     println("********************************************************************************************")
 }
