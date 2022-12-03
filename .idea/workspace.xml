@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c01b39-c404-4ef2-b1d5-2125bd8e2588" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13c01b39-c404-4ef2-b1d5-2125bd8e2588" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,11 +34,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/temilola/IdeaProjects/AdventofCode2022/src/main/kotlin/data/day02"
+    "last_opened_file_path": "/Users/temilola/Projects/IdeaProjects/AdventofCode2022/src/main/kotlin/problems/day03"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day03" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/data/day03" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day02" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/data/day02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
