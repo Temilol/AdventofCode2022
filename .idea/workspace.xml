@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c01b39-c404-4ef2-b1d5-2125bd8e2588" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day04/Day04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day04/Practice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day04/part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day04/part2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Day04.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day05/Day05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day05/Practice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day05/part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day05/part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Day05.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,16 +41,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/temilola/Projects/IdeaProjects/AdventofCode2022/src/main/kotlin/problems/day04"
+    "last_opened_file_path": "/Users/temilola/Projects/IdeaProjects/AdventofCode2022/src/main/kotlin/problems/day05"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day05" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/data/day05" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day04" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/data/day04" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day03" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/data/day03" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day01" />
