@@ -45,5 +45,7 @@ fun main(args: Array<String>) {
     val day4 = Day04()
     println("Part 1 problem is https://adventofcode.com/2022/day/4")
     println("Part 1 solution is ${day4.part01()}")
+    println("Part 2 problem is https://adventofcode.com/2022/day/4#part2")
+    println("Part 2 solution is ${day4.part02()}")
     println("********************************************************************************************")
 }
