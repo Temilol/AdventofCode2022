@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c01b39-c404-4ef2-b1d5-2125bd8e2588" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day07/Day07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day07/Practice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Day07.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/day07/Day07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/day07/Day07.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/day07/Practice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/day07/Practice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/solutions/Day07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Day07.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
