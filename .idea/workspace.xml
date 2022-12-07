@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c01b39-c404-4ef2-b1d5-2125bd8e2588" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day06/Day06.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day06/Practice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day06/part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day06/part2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Day06.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day07/Day07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/day07/Practice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/day07/part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Day07.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +41,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/temilola/Projects/IdeaProjects/AdventofCode2022/src/main/kotlin/problems"
+    "last_opened_file_path": "/Users/temilola/Projects/IdeaProjects/AdventofCode2022/src/main/kotlin/data"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/problems" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/data" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/problems" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day05" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/data/day05" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day04" />
@@ -56,6 +55,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/problems/day01" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/data/day01" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="solutions" />
     </key>
   </component>
   <component name="RunManager">
