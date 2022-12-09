@@ -70,8 +70,6 @@ class Day08 {
             }
             i--
         }
-//        println(foundR)
-//        println(foundL)
 
         return foundL || foundR
     }
