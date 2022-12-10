@@ -7,6 +7,7 @@ import solutions.Day06
 import solutions.Day07
 import solutions.Day08
 import solutions.Day09
+import solutions.Day10
 
 fun main(args: Array<String>) {
     println("============================================================================================")
@@ -109,5 +110,16 @@ fun main(args: Array<String>) {
     println("Part 1 solution is ${day9.part01()}")
     println("Part 2 problem is https://adventofcode.com/2022/day/9#part2")
     println("Part 2 solution is ${day9.part02()}")
+    println("********************************************************************************************")
+
+    println("************************************  DAY 10!  *********************************************")
+    println("** Day10 Practice Test Case **")
+    Day10().practice()
+    println("** Day10 Real Test Case **")
+    val day10= Day10()
+    println("Part 1 problem is https://adventofcode.com/2022/day/10")
+    println("Part 1 solution is ${day10.part01()}")
+    println("Part 2 problem is https://adventofcode.com/2022/day/10#part2")
+    println("Part 2 solution is ${day10.part02()}")
     println("********************************************************************************************")
 }
