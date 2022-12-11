@@ -2,9 +2,9 @@ package solutions
 
 import utils.readInput
 
-data class Point(var x: Int, var y: Int)
 
 class Day09 {
+    data class Point(var x: Int, var y: Int)
     private var input = readInput("day09/Day09")
 
     fun practice() {
